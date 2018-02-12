@@ -15,10 +15,10 @@ After running this project, it will answer these three questions:
 ### 3. On which days did more than 1% of requests lead to errors?
 
 
-##What is inside my `log_analysis` file?
-1 - A function to connect the database.
-2 - Three queries to answer the required questions.
-3 - Functions to save and print out the result of the queries. 
+## What is inside my `log_analysis` file?
+* 1 - A function to connect the database.
+* 2 - Three queries to answer the required questions.
+* 3 - Functions to save and print out the result of the queries. 
 
 
 
@@ -28,7 +28,7 @@ After running this project, it will answer these three questions:
 * <h4>Clone the repository to your local machine</h4>
   <pre> git clone https://github.com/Muhammad-Almousa/log_analysis.git</pre>
 * <h4>Start the virtual machine</h4>
-  From your terminal, inside the project directory, run the command `vagrant up`. This will cause Vagrant to download the Linux      
+  From your terminal, inside the project directory, run the command  `vagrant up` . This will cause Vagrant to download the Linux      
   operating   system and install it.
   When vagrant up is finished running, you will get your shell prompt back. At this point, you can run `vagrant ssh` to log in to your  
   newly installed Linux VM!
