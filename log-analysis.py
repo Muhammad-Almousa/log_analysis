@@ -8,8 +8,8 @@ def connect(dbname="news"):
         db = psycopg2.connect("dbname={}".format(dbname))
         c = db.cursor()
         return db, c
-    except:
-        print("Error in connecting to database")
+    except Exception, e:
+        print str(e)
 
 
 # The questions that these queries answer
@@ -54,18 +54,18 @@ def get_result(query):
 
 def print_result(query_results):
     # Return the results of the first and the second queries
-    print (query_results[1])
+    print(query_results[1])
     for i, items in enumerate(query_results[0]):
-        print (
+        print(
             "\t", i+1, "-", items[0],
             "\t -", str(items[1]), "views")
 
 
 def print_error_results(query_results):
     # return the result of the last query
-    print (query_results[1])
+    print(query_results[1])
     for items in query_results[0]:
-        print ("\t", items[0], "-", str(items[1]) + "% errors")
+        print("\t", items[0], "-", str(items[1]) + "% errors")
 
 
 if __name__ == '__main__':
