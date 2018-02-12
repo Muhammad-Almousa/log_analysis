@@ -8,11 +8,11 @@ I explored a large database with over a million rows, and I built and refined co
 
 After running this project, it will answer these three questions:
 
-###1. What are the most popular three articles of all time?
+### 1. What are the most popular three articles of all time?
 
-###2. Who are the most popular article authors of all time?
+### 2. Who are the most popular article authors of all time?
 
-###3. On which days did more than 1% of requests lead to errors?
+### 3. On which days did more than 1% of requests lead to errors?
 
 
 ##What is inside my `log_analysis` file?
@@ -26,7 +26,7 @@ After running this project, it will answer these three questions:
 ## Instructions on how to run it:
 * <h4>Install <a href="https://www.vagrantup.com/">Vagrant</a> and <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox.</a></h4>
 * <h4>Clone the repository to your local machine</h4>
-  <pre>clone this repository to your local machine</pre>
+  <pre> git clone https://github.com/Muhammad-Almousa/log_analysis.git</pre>
 * <h4>Start the virtual machine</h4>
   From your terminal, inside the project directory, run the command `vagrant up`. This will cause Vagrant to download the Linux      
   operating   system and install it.
