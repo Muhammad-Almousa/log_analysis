@@ -8,20 +8,18 @@ I explored a large database with over a million rows, and I built and refined co
 
 After running this project, it will answer these three questions:
 
-### 1. What are the most popular three articles of all time?
+#### 1. What are the most popular three articles of all time?
 
-### 2. Who are the most popular article authors of all time?
+#### 2. Who are the most popular article authors of all time?
 
-### 3. On which days did more than 1% of requests lead to errors?
-*
-*
-*
-*
+#### 3. On which days did more than 1% of requests lead to errors?
+<br>
+<br>
 
-### What is inside my `log_analysis.py` file?
-* 1 - A function to connect the database.
-* 2 - Three queries to answer the required questions.
-* 3 - Functions to save and print out the result of the queries. 
+### What is inside my `log_analysis.py` file?<br>
+1 - A function to connect the database.<br>
+2 - Three queries to answer the required questions.<br>
+3 - Functions to save and print out the result of the queries. <br>
 
 
 
