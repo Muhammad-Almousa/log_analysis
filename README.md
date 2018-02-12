@@ -16,7 +16,7 @@ After running this project, it will answer these three questions:
 <br>
 <br>
 
-### What is inside my _log_analysis.py_ file?
+### What is inside my _log-analysis.py_ file?
 1. A function to connect the database.
 2. Three queries to answer the required questions.
 3. Functions to save and print out the result of the queries.
