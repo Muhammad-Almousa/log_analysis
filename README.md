@@ -13,9 +13,12 @@ After running this project, it will answer these three questions:
 ### 2. Who are the most popular article authors of all time?
 
 ### 3. On which days did more than 1% of requests lead to errors?
+*
+*
+*
+*
 
-
-## What is inside my `log_analysis` file?
+### What is inside my `log_analysis.py` file?
 * 1 - A function to connect the database.
 * 2 - Three queries to answer the required questions.
 * 3 - Functions to save and print out the result of the queries. 
@@ -41,4 +44,4 @@ After running this project, it will answer these three questions:
 * <h4>Make Views</h4>
   Make views by running respective queries on command line or uncomment code written in python module.
 * <h4>Run Module</h4>
-  <pre>python log.py</pre>
+  <pre>python log-analysis.py</pre>
